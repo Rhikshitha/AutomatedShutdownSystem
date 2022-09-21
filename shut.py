@@ -22,7 +22,7 @@ def update():
  while 1:
   GetLastInputInfo=int(get_idle_duration())
   print(GetLastInputInfo)
-  if GetLastInputInfo == 10:
+  if GetLastInputInfo == 600:
    os.system("shutdown /s /t 1")
   time.sleep(1)
 btn_text=StringVar()
